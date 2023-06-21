@@ -1,0 +1,87 @@
+body {
+    background-image: url("https://img.freepik.com/foto-gratis/equipamiento-deportivo_23-2148148989.jpg?w=740&t=st=1682539656~exp=1682540256~hmac=53e7b80d91e918f92e2c65876773b8a6e8ece84e20db580d459bf0a23b3aba27"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
+  }
+  
+  .form {
+    width: 570px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 40px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #78788c;
+  }
+  
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a;
+  }
+  
+  button {
+    float: right;
+    padding: 8px 20px;
+    margin: 15px 3px 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #78788c;
+    color: #5a5a6e;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background: #78788c;
+    color: #fff;
+  }
+  
+  div {
+    content: "Hi";
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background: #50505a;
+    color: #fff;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+  }
+  
+  span {
+    margin: 0 5px 0 40px;
+  }
