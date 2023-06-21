@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formulario</title>
+
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<link rel="shortcut icon" href="img/form_icon.png">
+
+</head>
+<body>
+	<script src="./js/script.js"></script>
+	
+	<form class="form" method="get">
+
+	  <h2>Formulario</h2>
+
+	  <!--Campo del nombre - solo letras-->
+		  <p class="nombre" type="Nombre:">
+		  	<input 
+			  	type="text" 
+			  	id="campo" 
+			  	name="campo" 
+			  	pattern="^[A-Za-z]+$" 
+			  	maxlength="35" required 
+			  	onkeypress="return sololetras(event)"
+			  	placeholder="Escribe tu nombre ...">
+		  	</input>
+		  </p>
+
+
+		  <!--Campo del correo-->
+		  <p
+		  type="Correo:">
+		  <label 
+		  for="correo">
+            <input 
+            class="label__input" 
+            type="correo" 
+            name="correo" 
+            id="correo" 
+            placeholder="ejemplo@gmail.com" required>
+        </label>
+
+
+        <!--Campo del Numero aleatorio de 6 digitos-->
+		<p type="Numero aleatorio:">
+		<label for="inputRandom" class="form__label label">
+            <input class="label__input" type="text" name="random" id="inputRandom" value="cargando..." readonly>
+        </label>
+
+
+        <!--Boton-->
+		  <button type="submit" onclick="validarcorreo(form.correo.value)">Enviar</button>
+		  <button type="button" onclick="location.href='index.html'">Volver</button>
+		  <!---->
+			  <div>
+			    <span class="fa fa-phone"></span>001 1023 567
+			    <span class="fa fa-envelope-o"></span> JD@store.pe
+			  </div>
+
+	</form>
+
+	<script src="./js/num.js"></script>
+</body>
+</html>
