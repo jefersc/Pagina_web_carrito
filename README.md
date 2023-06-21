@@ -5,28 +5,45 @@
 
 ## **Paginas Principales:**
 
-## Inicio:
+<br>
+<h1 align="center"><strong> 🚀 Inicio:</strong></h1>
+<br>
 
 ![Primer Diseno](./screenshots/inicio.jpg)
 
-### Categorias:
+<br>
+<h2 align="center"><strong> 👾 Categorias:</strong></h2>
+<br>
+
 ![Segundo Diseno](./screenshots/categorias.jpg)
-### Zapatillas:
+<br>
+<h2 align="center"><strong> 👟 Zapatillas:</strong></h2>
+<br>
+
 ![Segundo Diseno](./screenshots/zapatillas.jpg)
-### Moda:
+<br>
+<h2 align="center"><strong> 🕴️ Moda:</strong></h2>
+<br>
+
 ![Segundo Diseno](./screenshots/moda.jpg)
 ### Footer :
 ![Segundo Diseno](./screenshots/footer.jpg)
 
-## Todos los productos:
+##  🥇 Productos:
+*en esta pagina se muestra todos los productos,los unico que debe gacer el usario es dar click en los items de moda,zapatillas,etc...*
+
 ![Primer Diseno](./screenshots/productos_1.jpg)
 ![Primer Diseno](./screenshots/productos_2.jpg)
 
-## Formulario :
+## 📝 Formulario :
 ![Primer Diseno](./screenshots/formulario.jpg)
-## Contacto :
+## ☎️ Contacto :
 ![Primer Diseno](./screenshots/contacto.jpg)
 
+<br>
+<h2 align="center"><strong> ☆ "icono de la pagina del formulario" ☆:</strong></h2>
+<p align="center">
+  <img src="./screenshots/icono.jpg">
+</p>
+<br><br>
 
-### "icono de la pagina del formulario":
-![Primer Diseno](./screenshots/icono.jpg)
